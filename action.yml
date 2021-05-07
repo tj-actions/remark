@@ -1,0 +1,27 @@
+name: Run remark cli
+description: Remark
+author: tj-actions
+inputs:
+  plugins:
+    description: 'List of remark plugins to be installed.'
+    required: true
+    default: |
+      remark-toc
+  files:
+    description: 'Input file(s)'
+    required: true
+    default: |
+      README.md
+  args:
+    description: 'Argument passed to remark cli'
+    required: true
+    default: "--use toc --output"
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.token }}
+branding:
+  icon: file-text
+  color: white
