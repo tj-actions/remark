@@ -1,12 +1,24 @@
 # Changelog
 
-## [Unreleased](https://github.com/tj-actions/remark/tree/HEAD)
+## [v1.3](https://github.com/tj-actions/remark/tree/v1.3) (2021-05-07)
 
-[Full Changelog](https://github.com/tj-actions/remark/compare/v1...HEAD)
+[Full Changelog](https://github.com/tj-actions/remark/compare/v1.2...v1.3)
+
+## [v1.2](https://github.com/tj-actions/remark/tree/v1.2) (2021-05-07)
+
+[Full Changelog](https://github.com/tj-actions/remark/compare/v1.1...v1.2)
+
+## [v1.1](https://github.com/tj-actions/remark/tree/v1.1) (2021-05-07)
+
+[Full Changelog](https://github.com/tj-actions/remark/compare/v1...v1.1)
 
 **Closed issues:**
 
 - Dependency Dashboard [\#2](https://github.com/tj-actions/remark/issues/2)
+
+**Merged pull requests:**
+
+- Upgraded to v1 [\#4](https://github.com/tj-actions/remark/pull/4) ([jackton1](https://github.com/jackton1))
 
 ## [v1](https://github.com/tj-actions/remark/tree/v1) (2021-05-07)
 
