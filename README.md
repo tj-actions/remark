@@ -32,7 +32,8 @@ remark
 Features
 --------
 
-* TODO
+* Lint markdown
+* Use an array of [remark plugins](https://github.com/remarkjs/remark/blob/main/doc/plugins.md) to fix markdowns.
 
 
 Credits
