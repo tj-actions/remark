@@ -15,6 +15,8 @@ remark
         uses: tj-actions/remark@v1
 ```
 
+## Table of Contents
+
 
 ## Inputs
 
