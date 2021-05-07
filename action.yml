@@ -1,4 +1,4 @@
-name: remarkjs
+name: Run remark-cli
 description: Markdown processor
 author: tj-actions
 inputs:
