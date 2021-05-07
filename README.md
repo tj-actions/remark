@@ -5,7 +5,7 @@
 remark
 ------
 
-Remark
+[Remark](https://github.com/remarkjs/remark) markdown processor
 
 ```yaml
 ...
