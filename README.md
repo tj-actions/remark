@@ -10,7 +10,7 @@
     steps:
       - uses: actions/checkout@v2
       - name: Run remark cli
-        uses: tj-actions/remark@v1
+        uses: tj-actions/remark@v1.1
 ```
 
 ## Table of Contents
