@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.4](https://github.com/tj-actions/remark/tree/v1.4) (2021-05-08)
+
+[Full Changelog](https://github.com/tj-actions/remark/compare/v1.3...v1.4)
+
+**Merged pull requests:**
+
+- Upgraded to v1.3 [\#5](https://github.com/tj-actions/remark/pull/5) ([jackton1](https://github.com/jackton1))
+
 ## [v1.3](https://github.com/tj-actions/remark/tree/v1.3) (2021-05-07)
 
 [Full Changelog](https://github.com/tj-actions/remark/compare/v1.2...v1.3)
