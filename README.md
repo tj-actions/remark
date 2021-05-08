@@ -3,7 +3,7 @@
 
 ## [remark](https://github.com/remarkjs/remark)
 
-Want a cool `Table of Contents` for your markdown also auto sync changes each time you make edits using this action enables the best of both worlds. 
+Want a cool `Table of Contents` for your markdown and also auto sync changes each time you make edits using this action enables the best of both worlds. 
 
 
 ```yaml
