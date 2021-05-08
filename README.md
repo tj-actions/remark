@@ -1,9 +1,10 @@
 [![CI](https://github.com/tj-actions/remark/workflows/CI/badge.svg)](https://github.com/tj-actions/remark/actions?query=workflow%3ACI)
 [![Update release version.](https://github.com/tj-actions/remark/workflows/Update%20release%20version./badge.svg)](https://github.com/tj-actions/remark/actions?query=workflow%3A%22Update+release+version.%22) <a href="https://github.com/search?q=tj-actions+remark+path%3A.github%2Fworkflows+language%3AYAML&type=code" target="_blank" title="Public workflows that use this action."><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-git-master.endbug.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Fremark%26badge%3Dtrue" alt="Public workflows that use this action."></a>
 
-## remark
+## [remark](https://github.com/remarkjs/remark)
 
-[Remark](https://github.com/remarkjs/remark) markdown processor
+Want a cool `Table of Contents` for your markdown also auto sync changes each time you make edits using this action enables the best of both worlds. 
+
 
 ```yaml
 ...
@@ -30,10 +31,18 @@
 
 *   Free software: [MIT license](LICENSE)
 
+
 ## Features
 
-*   Lint markdown
-*   Use an array of [remarkjs plugins](https://github.com/remarkjs/remark/blob/main/doc/plugins.md) to fix markdowns.
+*   Format Markdown ([remark-cli](https://github.com/remarkjs/remark/tree/main/packages/remark-cli#cli))
+*   Automatically add links to headings in Markdown ([remark-autolink-headings](https://github.com/ben-eb/remark-autolink-headings))
+*   Lint Markdown ([remark-lint](https://github.com/remarkjs/remark-lint))
+*   Highlight code blocks ([remark-highlight](https://github.com/remarkjs/remark-highlight.js))
+*   Math support for Markdown ([remark-math](https://github.com/remarkjs/remark-math))
+*   Generate a Tables of Contents ([remark-toc](https://github.com/remarkjs/remark-toc))
+
+And many more using an array of [remarkjs plugins](https://github.com/remarkjs/remark/blob/main/doc/plugins.md).
+
 
 ## Credits
 
