@@ -28,6 +28,36 @@ Want a cool `Table of Contents` for your markdown and also auto sync changes eac
 | files   |   `string` OR `string[]` | `false`  | `README.md` | List of input markdown files    |
 | args    |  `string`  |  `false`  |  `'--use toc --output'` |  [remark cli](https://github.com/unifiedjs/unified-args#cli) options.  |
 
+
+## Example
+
+Generate a PR each time your `README.md` changes
+
+```yaml
+...
+
+      - name: Run remark cli
+        uses: tj-actions/remark@v1.5
+      - name: Verify Changed files
+        uses: tj-actions/verify-changed-files@v6
+        id: verify_changed_files
+        with:
+          files: |
+            README.md
+      - name: Create Pull Request
+        if: steps.verify_changed_files.outputs.files_changed == 'true'
+        uses: peter-evans/create-pull-request@v3
+        with:
+          base: "main"
+          title: "Updated README.md"
+          branch: "chore/update-readme"
+          commit-message: "Updated README.md"
+          body: "Updated README.md"
+          token: ${{ secrets.PAT_TOKEN }}
+
+
+```
+
 *   Free software: [MIT license](LICENSE)
 
 ## Features
