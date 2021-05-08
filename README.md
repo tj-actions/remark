@@ -53,7 +53,7 @@ Generate a PR each time your `README.md` changes
           branch: "chore/update-readme"
           commit-message: "Updated README.md"
           body: "Updated README.md"
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ github.token }}
 
 
 ```
