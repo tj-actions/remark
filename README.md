@@ -3,8 +3,7 @@
 
 ## [remark](https://github.com/remarkjs/remark)
 
-Want a cool `Table of Contents` for your markdown and also auto sync changes each time you make edits using this action enables the best of both worlds. 
-
+Want a cool `Table of Contents` for your markdown and also auto sync changes each time you make edits using this action enables the best of both worlds.
 
 ```yaml
 ...
@@ -31,7 +30,6 @@ Want a cool `Table of Contents` for your markdown and also auto sync changes eac
 
 *   Free software: [MIT license](LICENSE)
 
-
 ## Features
 
 *   Format Markdown ([remark-cli](https://github.com/remarkjs/remark/tree/main/packages/remark-cli#cli))
@@ -42,7 +40,6 @@ Want a cool `Table of Contents` for your markdown and also auto sync changes eac
 *   Generate a Tables of Contents ([remark-toc](https://github.com/remarkjs/remark-toc))
 
 And many more using an array of [remarkjs plugins](https://github.com/remarkjs/remark/blob/main/doc/plugins.md).
-
 
 ## Credits
 
