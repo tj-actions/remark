@@ -1,3 +1,4 @@
+---
 plugins:
-  - remark-toc:
-      tight: true
+  remark-toc:
+    tight: true
