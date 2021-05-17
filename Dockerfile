@@ -7,6 +7,6 @@ RUN apk add bash npm
 RUN npm install -g remark-cli
 
 COPY entrypoint.sh /entrypoint.sh
-COPY .remarkrc.yml /.remarkrc.yml
+COPY .remarkrc.json /.remarkrc.json
 
 ENTRYPOINT ["/entrypoint.sh"]
