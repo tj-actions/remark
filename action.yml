@@ -15,7 +15,7 @@ inputs:
   args:
     description: 'Argument passed to remark cli'
     required: true
-    default: "--rc-path .remarkrc.yml --use toc --output"
+    default: "--rc-path .remarkrc.json --use toc --output"
 
 runs:
   using: 'docker'
