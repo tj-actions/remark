@@ -35,7 +35,7 @@ Generate a PR each time your `README.md` changes
 
 ```yaml
 ...
-
+    steps:
       - name: Run remark cli
         uses: tj-actions/remark@v1.5
       - name: Verify Changed files
