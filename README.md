@@ -27,7 +27,7 @@ Want a cool `Table of Contents` for your markdown and also auto sync changes eac
 |:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
 | plugins  |  `string` OR `string[]` | `false`  |  `remark-toc` |  List of [remarkjs plugins](https://github.com/remarkjs/remark/blob/main/doc/plugins.md)  |
 | files   |   `string` OR `string[]` | `false`  | `README.md` | List of input markdown files    |
-| args    |  `string`  |  `false`  |  `'--use toc --output'` |  [remark cli](https://github.com/unifiedjs/unified-args#cli) options.  |
+| args    |  `string`  |  `false`  |  `'-r .remarkrc.json --use toc --output'` |  [remark cli](https://github.com/unifiedjs/unified-args#cli) options.  |
 
 ## Example
 
