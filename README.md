@@ -10,7 +10,7 @@ Want a cool `Table of Contents` for your markdown and also auto sync changes eac
     steps:
       - uses: actions/checkout@v2
       - name: Run remark cli
-        uses: tj-actions/remark@v1.6
+        uses: tj-actions/remark@v1.7
 ```
 
 ## Table of Contents
@@ -37,7 +37,7 @@ Generate a PR each time your `README.md` changes
 ...
     steps:
       - name: Run remark cli
-        uses: tj-actions/remark@v1.6
+        uses: tj-actions/remark@v1.7
       - name: Verify Changed files
         uses: tj-actions/verify-changed-files@v6
         id: verify_changed_files
