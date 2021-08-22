@@ -1,5 +1,30 @@
 # Changelog
 
+## [v1.6](https://github.com/tj-actions/remark/tree/v1.6) (2021-08-22)
+
+[Full Changelog](https://github.com/tj-actions/remark/compare/v1.5...v1.6)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#2](https://github.com/tj-actions/remark/issues/2)
+
+**Merged pull requests:**
+
+- Update default args [\#21](https://github.com/tj-actions/remark/pull/21) ([jackton1](https://github.com/jackton1))
+- Update alpine Docker tag to v3.14.1 [\#20](https://github.com/tj-actions/remark/pull/20) ([renovate[bot]](https://github.com/apps/renovate))
+- Update codacy/codacy-analysis-cli-action action to v4 [\#19](https://github.com/tj-actions/remark/pull/19) ([renovate[bot]](https://github.com/apps/renovate))
+- Update codacy/codacy-analysis-cli-action action to v3 [\#18](https://github.com/tj-actions/remark/pull/18) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/verify-changed-files action to v7 [\#16](https://github.com/tj-actions/remark/pull/16) ([renovate[bot]](https://github.com/apps/renovate))
+- Update alpine Docker tag to v3.14.0 [\#15](https://github.com/tj-actions/remark/pull/15) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#14](https://github.com/tj-actions/remark/pull/14) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#13](https://github.com/tj-actions/remark/pull/13) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/sync-release-version action to v8.7 [\#12](https://github.com/tj-actions/remark/pull/12) ([renovate[bot]](https://github.com/apps/renovate))
+- Update pascalgn/automerge-action action to v0.14.2 [\#11](https://github.com/tj-actions/remark/pull/11) ([renovate[bot]](https://github.com/apps/renovate))
+- Update cirrus-actions/rebase action to v1.5 [\#10](https://github.com/tj-actions/remark/pull/10) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#9](https://github.com/tj-actions/remark/pull/9) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#8](https://github.com/tj-actions/remark/pull/8) ([jackton1](https://github.com/jackton1))
+- Upgraded to v1.5 [\#7](https://github.com/tj-actions/remark/pull/7) ([jackton1](https://github.com/jackton1))
+
 ## [v1.5](https://github.com/tj-actions/remark/tree/v1.5) (2021-05-08)
 
 [Full Changelog](https://github.com/tj-actions/remark/compare/v1.4...v1.5)
@@ -27,10 +52,6 @@
 ## [v1.1](https://github.com/tj-actions/remark/tree/v1.1) (2021-05-07)
 
 [Full Changelog](https://github.com/tj-actions/remark/compare/v1...v1.1)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#2](https://github.com/tj-actions/remark/issues/2)
 
 **Merged pull requests:**
 
