@@ -24,6 +24,18 @@ Want a cool `Table of Contents` for your markdown and also auto sync changes eac
 
 ## Inputs
 
+<!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
+
+|  INPUT  |  TYPE  | REQUIRED |                 DEFAULT                 |                                       DESCRIPTION                                        |
+|---------|--------|----------|-----------------------------------------|------------------------------------------------------------------------------------------|
+| args    | string | true     | `-r /.remarkrc.json --use toc --output` | [remark cli](https://github.com/unifiedjs/unified-args#cli) options.                     |
+| files   | string | true     | `README.md                              | List of input markdown files                                                             |
+|         |        |          | `                                       |                                                                                          |
+| plugins | string | true     | `remark-toc                             | List of [remarkjs plugins](https://github.com/remarkjs/remark/blob/main/doc/plugins.md). |
+|         |        |          | `                                       |                                                                                          |
+
+<!-- AUTO-DOC-INPUT:END -->
+
 |   Input       |    type    |  required     |  default                      |  description  |
 |:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
 | plugins  |  `string` OR `string[]` | `false`  |  `remark-toc` |  List of [remarkjs plugins](https://github.com/remarkjs/remark/blob/main/doc/plugins.md)  |
