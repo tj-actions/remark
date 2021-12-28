@@ -5,14 +5,11 @@ inputs:
   plugins:
     description: 'List of [remarkjs plugins](https://github.com/remarkjs/remark/blob/main/doc/plugins.md).'
     required: true
-    default: |
-      remark-toc
+    default: "remark-toc"
   files:
     description: ' List of input markdown files '
     required: true
-    default: |
-      README.md
-      README.md
+    default: "README.md"
   args:
     description: '[remark cli](https://github.com/unifiedjs/unified-args#cli) options.'
     required: true
