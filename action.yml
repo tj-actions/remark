@@ -3,17 +3,17 @@ description: Markdown processor
 author: tj-actions
 inputs:
   plugins:
-    description: 'List of remark plugins to be installed.'
+    description: 'List of [remarkjs plugins](https://github.com/remarkjs/remark/blob/main/doc/plugins.md).'
     required: true
     default: |
       remark-toc
   files:
-    description: 'Input file(s)'
+    description: ' List of input markdown files '
     required: true
     default: |
       README.md
   args:
-    description: 'Argument passed to remark cli'
+    description: '[remark cli](https://github.com/unifiedjs/unified-args#cli) options.'
     required: true
     default: "-r /.remarkrc.json --use toc --output"
 
