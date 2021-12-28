@@ -12,6 +12,7 @@ inputs:
     required: true
     default: |
       README.md
+      README.md
   args:
     description: '[remark cli](https://github.com/unifiedjs/unified-args#cli) options.'
     required: true
