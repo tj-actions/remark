@@ -36,7 +36,6 @@ Want a cool `Table of Contents` for your markdown and also auto sync changes eac
 
 <!-- AUTO-DOC-INPUT:END -->
 
-
 ## Example
 
 Generate a PR each time your `README.md` changes
