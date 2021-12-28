@@ -24,11 +24,18 @@ Want a cool `Table of Contents` for your markdown and also auto sync changes eac
 
 ## Inputs
 
-|   Input       |    type    |  required     |  default                      |  description  |
-|:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
-| plugins  |  `string` OR `string[]` | `false`  |  `remark-toc` |  List of [remarkjs plugins](https://github.com/remarkjs/remark/blob/main/doc/plugins.md)  |
-| files   |   `string` OR `string[]` | `false`  | `README.md` | List of input markdown files    |
-| args    |  `string`  |  `false`  |  `'-r .remarkrc.json --use toc --output'` |  [remark cli](https://github.com/unifiedjs/unified-args#cli) options.  |
+<!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
+
+|  INPUT  |  TYPE  | REQUIRED |                 DEFAULT                 |                                       DESCRIPTION                                        |
+|---------|--------|----------|-----------------------------------------|------------------------------------------------------------------------------------------|
+| args    | string | true     | `-r /.remarkrc.json --use toc --output` | [remark cli](https://github.com/unifiedjs/unified-args#cli) options.                     |
+| files   | string | true     | `README.md                              | List of input markdown files                                                             |
+|         |        |          | `                                       |                                                                                          |
+| plugins | string | true     | `remark-toc                             | List of [remarkjs plugins](https://github.com/remarkjs/remark/blob/main/doc/plugins.md). |
+|         |        |          | `                                       |                                                                                          |
+
+<!-- AUTO-DOC-INPUT:END -->
+
 
 ## Example
 
