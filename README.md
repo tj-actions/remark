@@ -22,6 +22,7 @@ Want a cool `Table of Contents` for your markdown and also auto sync changes eac
 *   [Example](#example)
 *   [Features](#features)
 *   [Credits](#credits)
+*   [TODO](#todo)
 *   [Report Bugs](#report-bugs)
 
 ## Inputs
@@ -91,9 +92,9 @@ And many more using an array of [remarkjs plugins](https://github.com/remarkjs/r
 This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) using [cookiecutter-action](https://github.com/tj-actions/cookiecutter-action)
 
 ## TODO
-- [ ] Add support for running action on [![Mac OS](https://img.shields.io/badge/mac%20os-000000?logo=macos\&logoColor=F0F0F0)](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)
-[![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows\&logoColor=white)](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)
 
+*   \[ ] Add support for running action on [![Mac OS](https://img.shields.io/badge/mac%20os-000000?logo=macos\&logoColor=F0F0F0)](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)
+    [![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows\&logoColor=white)](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)
 
 ## Report Bugs
 
