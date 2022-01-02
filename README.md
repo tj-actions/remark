@@ -3,7 +3,7 @@
 [![Update release version.](https://github.com/tj-actions/remark/workflows/Update%20release%20version./badge.svg)](https://github.com/tj-actions/remark/actions?query=workflow%3A%22Update+release+version.%22) [![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-tj-actions1.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Fremark%26badge%3Dtrue)](https://github.com/search?o=desc\&q=tj-actions+remark+path%3A.github%2Fworkflows+language%3AYAML\&s=\&type=Code)
 
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu\&logoColor=white)](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on) [![Mac OS](https://img.shields.io/badge/mac%20os-000000?logo=macos\&logoColor=F0F0F0)](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)
-    [![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows\&logoColor=white)](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)
+[![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows\&logoColor=white)](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)
 
 ## [remark](https://github.com/remarkjs/remark)
 
@@ -23,18 +23,18 @@ Want a cool `Table of Contents` for your markdown and also auto sync changes eac
 *   [Example](#example)
 *   [Features](#features)
 *   [Credits](#credits)
-*   [TODO](#todo)
 *   [Report Bugs](#report-bugs)
 
 ## Inputs
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|  INPUT  |  TYPE  | REQUIRED |                 DEFAULT                 |                                       DESCRIPTION                                        |
-|---------|--------|----------|-----------------------------------------|------------------------------------------------------------------------------------------|
-| args    | string | true     | `-r /.remarkrc.json --use toc --output` | [remark cli](https://github.com/unifiedjs/unified-args#cli) options.                     |
-| files   | string | true     | `README.md`                             | List of input markdown files                                                             |
-| plugins | string | true     | `remark-toc`                            | List of [remarkjs plugins](https://github.com/remarkjs/remark/blob/main/doc/plugins.md). |
+|  INPUT  |  TYPE  | REQUIRED |                  DEFAULT                   |                                       DESCRIPTION                                        |
+|---------|--------|----------|--------------------------------------------|------------------------------------------------------------------------------------------|
+| args    | string | true     | `--use toc --output`                       | [remark cli](https://github.com/unifiedjs/unified-args#cli) options.                     |
+| files   | string | true     | `README.md`                                | List of input markdown files                                                             |
+| plugins | string | true     | `remark-toc`                               | List of [remarkjs plugins](https://github.com/remarkjs/remark/blob/main/doc/plugins.md). |
+| rc\_path | string | false    | `${{ github.action_path }}/.remarkrc.json` | Remark configuration file                                                                |
 
 <!-- AUTO-DOC-INPUT:END -->
 
