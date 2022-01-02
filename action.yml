@@ -17,7 +17,7 @@ inputs:
   args:
     description: '[remark cli](https://github.com/unifiedjs/unified-args#cli) options.'
     required: true
-    default: "-r /.remarkrc.json --use toc --output"
+    default: "--use toc --output"
 
 runs:
   using: 'composite'
