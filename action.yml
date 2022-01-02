@@ -10,8 +10,8 @@ inputs:
     description: ' List of input markdown files '
     required: true
     default: "README.md"
-  config:
-    description: 'Remark json config file'
+  rc_path:
+    description: 'Remark configuration file'
     required: false
     default: "${{ github.action_path }}/.remarkrc.json"
   args:
@@ -29,7 +29,7 @@ runs:
       env:
         # INPUT_<VARIABLE_NAME> is not available in Composite run steps
         # https://github.community/t/input-variable-name-is-not-available-in-composite-run-steps/127611
-        INPUT_CONFIG: ${{ inputs.config }}
+        INPUT_RC_PATH: ${{ inputs.rc_path }}
         INPUT_PLUGINS: ${{ inputs.plugins }}
         INPUT_FILES: ${{ inputs.files }}
         INPUT_ARGS: ${{ inputs.args }}
