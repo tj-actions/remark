@@ -1,5 +1,41 @@
 # Changelog
 
+## [v2](https://github.com/tj-actions/remark/tree/v2) (2022-01-02)
+
+[Full Changelog](https://github.com/tj-actions/remark/compare/v1.7...v2)
+
+**Closed issues:**
+
+- Action Required: Fix Renovate Configuration [\#29](https://github.com/tj-actions/remark/issues/29)
+- Dependency Dashboard [\#2](https://github.com/tj-actions/remark/issues/2)
+
+**Merged pull requests:**
+
+- Updated README.md [\#49](https://github.com/tj-actions/remark/pull/49) ([jackton1](https://github.com/jackton1))
+- Add support for running on all platforms [\#46](https://github.com/tj-actions/remark/pull/46) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#45](https://github.com/tj-actions/remark/pull/45) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/github-changelog-generator action to v1.10 [\#44](https://github.com/tj-actions/remark/pull/44) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.9 [\#43](https://github.com/tj-actions/remark/pull/43) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/action-auto-doc action to v1.2.5 [\#42](https://github.com/tj-actions/remark/pull/42) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/action-auto-doc action to v2.1.3 [\#41](https://github.com/tj-actions/remark/pull/41) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v2 [\#40](https://github.com/tj-actions/remark/pull/40) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.2.3 [\#39](https://github.com/tj-actions/remark/pull/39) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#38](https://github.com/tj-actions/remark/pull/38) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#37](https://github.com/tj-actions/remark/pull/37) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#36](https://github.com/tj-actions/remark/pull/36) ([jackton1](https://github.com/jackton1))
+- Update update-readme.yml [\#35](https://github.com/tj-actions/remark/pull/35) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#34](https://github.com/tj-actions/remark/pull/34) ([jackton1](https://github.com/jackton1))
+- Add a Codacy badge to README.md [\#33](https://github.com/tj-actions/remark/pull/33) ([codacy-badger](https://github.com/codacy-badger))
+- Update alpine Docker tag to v3.15.0 [\#32](https://github.com/tj-actions/remark/pull/32) ([renovate[bot]](https://github.com/apps/renovate))
+- Update alpine Docker tag to v3.14.3 [\#31](https://github.com/tj-actions/remark/pull/31) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v2.4.0 [\#30](https://github.com/tj-actions/remark/pull/30) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v2.3.5 [\#28](https://github.com/tj-actions/remark/pull/28) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/verify-changed-files action to v8 [\#27](https://github.com/tj-actions/remark/pull/27) ([renovate[bot]](https://github.com/apps/renovate))
+- Update pascalgn/automerge-action action to v0.14.3 [\#26](https://github.com/tj-actions/remark/pull/26) ([renovate[bot]](https://github.com/apps/renovate))
+- Update alpine Docker tag to v3.14.2 [\#25](https://github.com/tj-actions/remark/pull/25) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/remark action to v1.7 [\#24](https://github.com/tj-actions/remark/pull/24) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v1.7 [\#23](https://github.com/tj-actions/remark/pull/23) ([jackton1](https://github.com/jackton1))
+
 ## [v1.7](https://github.com/tj-actions/remark/tree/v1.7) (2021-08-22)
 
 [Full Changelog](https://github.com/tj-actions/remark/compare/v1.6...v1.7)
@@ -11,10 +47,6 @@
 ## [v1.6](https://github.com/tj-actions/remark/tree/v1.6) (2021-08-22)
 
 [Full Changelog](https://github.com/tj-actions/remark/compare/v1.5...v1.6)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#2](https://github.com/tj-actions/remark/issues/2)
 
 **Merged pull requests:**
 
