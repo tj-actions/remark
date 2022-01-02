@@ -10,6 +10,10 @@ inputs:
     description: ' List of input markdown files '
     required: true
     default: "README.md"
+  config:
+    description: 'Remark json config file'
+    required: false
+    default: "${{ github.action_path }}/entrypoint.sh"
   args:
     description: '[remark cli](https://github.com/unifiedjs/unified-args#cli) options.'
     required: true
@@ -25,6 +29,7 @@ runs:
       env:
         # INPUT_<VARIABLE_NAME> is not available in Composite run steps
         # https://github.community/t/input-variable-name-is-not-available-in-composite-run-steps/127611
+        INPUT_CONFIG: ${{ inputs.config }}
         INPUT_PLUGINS: ${{ inputs.plugins }}
         INPUT_FILES: ${{ inputs.files }}
         INPUT_ARGS: ${{ inputs.args }}
