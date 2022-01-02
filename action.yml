@@ -13,7 +13,7 @@ inputs:
   config:
     description: 'Remark json config file'
     required: false
-    default: "${{ github.action_path }}/entrypoint.sh"
+    default: "${{ github.action_path }}/.remarkrc.json"
   args:
     description: '[remark cli](https://github.com/unifiedjs/unified-args#cli) options.'
     required: true
