@@ -2,6 +2,8 @@
 
 set -e
 
+git config --local core.autocrlf input
+
 npm install -g remark-cli
 
 # shellcheck disable=SC2086
