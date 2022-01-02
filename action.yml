@@ -1,4 +1,4 @@
-name: Run remark-cli
+name: Remark Markdown processor
 description: Markdown processor
 author: tj-actions
 inputs:
@@ -16,8 +16,18 @@ inputs:
     default: "-r /.remarkrc.json --use toc --output"
 
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: 'composite'
+  steps:
+    - run: |
+        bash $GITHUB_ACTION_PATH/entrypoint.sh
+      id: remark
+      shell: bash
+      env:
+        # INPUT_<VARIABLE_NAME> is not available in Composite run steps
+        # https://github.community/t/input-variable-name-is-not-available-in-composite-run-steps/127611
+        INPUT_PLUGINS: ${{ inputs.plugins }}
+        INPUT_FILES: ${{ inputs.files }}
+        INPUT_ARGS: ${{ inputs.args }}
 branding:
   icon: file-text
   color: white
