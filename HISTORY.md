@@ -1,5 +1,18 @@
 # Changelog
 
+## [v2.1](https://github.com/tj-actions/remark/tree/v2.1) (2022-01-03)
+
+[Full Changelog](https://github.com/tj-actions/remark/compare/v2...v2.1)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#2](https://github.com/tj-actions/remark/issues/2)
+
+**Merged pull requests:**
+
+- Updated test [\#53](https://github.com/tj-actions/remark/pull/53) ([jackton1](https://github.com/jackton1))
+- Upgraded to v2 [\#52](https://github.com/tj-actions/remark/pull/52) ([jackton1](https://github.com/jackton1))
+
 ## [v2](https://github.com/tj-actions/remark/tree/v2) (2022-01-02)
 
 [Full Changelog](https://github.com/tj-actions/remark/compare/v1.7...v2)
@@ -7,7 +20,6 @@
 **Closed issues:**
 
 - Action Required: Fix Renovate Configuration [\#29](https://github.com/tj-actions/remark/issues/29)
-- Dependency Dashboard [\#2](https://github.com/tj-actions/remark/issues/2)
 
 **Merged pull requests:**
 
