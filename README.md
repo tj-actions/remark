@@ -34,7 +34,7 @@ Want a cool `Table of Contents` for your markdown and also auto sync changes eac
 | args    | string | true     | `--use toc --output` | [remark cli](https://github.com/unifiedjs/unified-args#cli) options.                     |
 | files   | string | true     | `README.md`          | List of input markdown files                                                             |
 | plugins | string | true     | `remark-toc`         | List of [remarkjs plugins](https://github.com/remarkjs/remark/blob/main/doc/plugins.md). |
-| rc\_path | string | false    |                      | Remark configuration file                                                                |
+| rc_path | string | false    |                      | Remark configuration file                                                                |
 
 <!-- AUTO-DOC-INPUT:END -->
 
