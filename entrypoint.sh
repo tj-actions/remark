@@ -2,7 +2,7 @@
 
 set -e
 
-npm install -g remark-cli
+npm install -g remark-cli@10.0.1
 
 # shellcheck disable=SC2086
 npm install -g $INPUT_PLUGINS
