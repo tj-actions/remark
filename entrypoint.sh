@@ -10,5 +10,5 @@ npm install -g $INPUT_PLUGINS
 for path in ${INPUT_FILES}
 do
   # shellcheck disable=SC2086
-  npx remark "$path" --rc-path="$(realpath "${INPUT_RC_PATH}")" ${INPUT_ARGS}
+  npx remark "$path" --rc-path="${INPUT_RC_PATH}" ${INPUT_ARGS}
 done
