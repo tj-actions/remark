@@ -1,12 +1,30 @@
 # Changelog
 
-## [v2.2](https://github.com/tj-actions/remark/tree/v2.2) (2022-01-03)
+## [Unreleased](https://github.com/tj-actions/remark/tree/HEAD)
 
-[Full Changelog](https://github.com/tj-actions/remark/compare/v2.1...v2.2)
+[Full Changelog](https://github.com/tj-actions/remark/compare/v2.3...HEAD)
+
+**Merged pull requests:**
+
+- Updated README.md [\#64](https://github.com/tj-actions/remark/pull/64) ([jackton1](https://github.com/jackton1))
+
+## [v2.3](https://github.com/tj-actions/remark/tree/v2.3) (2022-01-03)
+
+[Full Changelog](https://github.com/tj-actions/remark/compare/v2.2...v2.3)
 
 **Closed issues:**
 
 - Dependency Dashboard [\#2](https://github.com/tj-actions/remark/issues/2)
+
+**Merged pull requests:**
+
+- Updated README.md [\#62](https://github.com/tj-actions/remark/pull/62) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/remark action to v2.2 [\#61](https://github.com/tj-actions/remark/pull/61) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v2.2 [\#60](https://github.com/tj-actions/remark/pull/60) ([jackton1](https://github.com/jackton1))
+
+## [v2.2](https://github.com/tj-actions/remark/tree/v2.2) (2022-01-03)
+
+[Full Changelog](https://github.com/tj-actions/remark/compare/v2.1...v2.2)
 
 **Merged pull requests:**
 
