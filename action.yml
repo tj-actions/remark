@@ -13,6 +13,7 @@ inputs:
   rc_path:
     description: 'Remark configuration file'
     required: false
+    default: ".remarkrc.json"
   args:
     description: '[remark cli](https://github.com/unifiedjs/unified-args#cli) options.'
     required: true
@@ -26,9 +27,10 @@ runs:
       id: remark
       shell: bash
       env:
+        GITHUB_ACTION_PATH: ${{ github.action_path }}
         # INPUT_<VARIABLE_NAME> is not available in Composite run steps
         # https://github.community/t/input-variable-name-is-not-available-in-composite-run-steps/127611
-        INPUT_RC_PATH: "${{ github.action_path }}/.remarkrc.json"
+        INPUT_RC_PATH: ${{ inputs.rc_path }}
         INPUT_PLUGINS: ${{ inputs.plugins }}
         INPUT_FILES: ${{ inputs.files }}
         INPUT_ARGS: ${{ inputs.args }}
