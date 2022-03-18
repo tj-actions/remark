@@ -1,20 +1,35 @@
 # Changelog
 
-## [Unreleased](https://github.com/tj-actions/remark/tree/HEAD)
+## [v3](https://github.com/tj-actions/remark/tree/v3) (2022-03-18)
 
-[Full Changelog](https://github.com/tj-actions/remark/compare/v2.3...HEAD)
+[Full Changelog](https://github.com/tj-actions/remark/compare/v2.3...v3)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#2](https://github.com/tj-actions/remark/issues/2)
 
 **Merged pull requests:**
 
+- Updated README.md [\#81](https://github.com/tj-actions/remark/pull/81) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#80](https://github.com/tj-actions/remark/pull/80) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/github-changelog-generator action to v1.13 [\#78](https://github.com/tj-actions/remark/pull/78) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/verify-changed-files action to v9 [\#77](https://github.com/tj-actions/remark/pull/77) ([renovate[bot]](https://github.com/apps/renovate))
+- Update codacy/codacy-analysis-cli-action action to v4.0.2 [\#76](https://github.com/tj-actions/remark/pull/76) ([renovate[bot]](https://github.com/apps/renovate))
+- Update codacy/codacy-analysis-cli-action action to v4.0.1 [\#75](https://github.com/tj-actions/remark/pull/75) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action [\#74](https://github.com/tj-actions/remark/pull/74) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.12 [\#73](https://github.com/tj-actions/remark/pull/73) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.2.13 [\#72](https://github.com/tj-actions/remark/pull/72) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#71](https://github.com/tj-actions/remark/pull/71) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/auto-doc action to v1.2.11 [\#70](https://github.com/tj-actions/remark/pull/70) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#69](https://github.com/tj-actions/remark/pull/69) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/auto-doc action to v1.2.9 [\#68](https://github.com/tj-actions/remark/pull/68) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.2.8 [\#67](https://github.com/tj-actions/remark/pull/67) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v2.3 [\#66](https://github.com/tj-actions/remark/pull/66) ([jackton1](https://github.com/jackton1))
 - Updated README.md [\#64](https://github.com/tj-actions/remark/pull/64) ([jackton1](https://github.com/jackton1))
 
 ## [v2.3](https://github.com/tj-actions/remark/tree/v2.3) (2022-01-03)
 
 [Full Changelog](https://github.com/tj-actions/remark/compare/v2.2...v2.3)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#2](https://github.com/tj-actions/remark/issues/2)
 
 **Merged pull requests:**
 
