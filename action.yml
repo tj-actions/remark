@@ -13,7 +13,6 @@ inputs:
   rc_path:
     description: 'Remark configuration file'
     required: false
-    default: ".remarkrc.json"
   args:
     description: '[remark cli](https://github.com/unifiedjs/unified-args#cli) options.'
     required: true
@@ -25,10 +24,12 @@ runs:
     - run: |
         npm install -g remark-cli@10.0.1
         npm install -g $INPUT_PLUGINS
+        
+        RC_PATH=${INPUT_RC_PATH:-"${{ github.action_path }}/.remarkrc.json"}
 
         for path in $INPUT_FILES
         do
-          npx remark "$path" --rc-path="${INPUT_RC_PATH}" ${INPUT_ARGS}
+          npx remark "$path" --rc-path="${RC_PATH}" ${INPUT_ARGS}
         done
       id: remark
       shell: bash
