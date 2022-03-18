@@ -24,7 +24,6 @@ Want a cool `Table of Contents` for your markdown and also auto sync changes eac
 *   [Features](#features)
 *   [Credits](#credits)
 *   [Report Bugs](#report-bugs)
-    *   [Contact](#contact)
 
 ## Inputs
 
@@ -102,5 +101,3 @@ If you are reporting a bug, please include:
 *   Your operating system name and version.
 *   Any details about your workflow that might be helpful in troubleshooting.
 *   Detailed steps to reproduce the bug.
-
-### Contact
