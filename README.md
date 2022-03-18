@@ -92,6 +92,7 @@ And many more using an array of [remarkjs plugins](https://github.com/remarkjs/r
 
 This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) using [cookiecutter-action](https://github.com/tj-actions/cookiecutter-action)
 
+
 ## Report Bugs
 
 Report bugs at https://github.com/tj-actions/remark/issues.
@@ -101,3 +102,5 @@ If you are reporting a bug, please include:
 *   Your operating system name and version.
 *   Any details about your workflow that might be helpful in troubleshooting.
 *   Detailed steps to reproduce the bug.
+
+### Contact
