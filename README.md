@@ -24,6 +24,7 @@ Want a cool `Table of Contents` for your markdown and also auto sync changes eac
 *   [Features](#features)
 *   [Credits](#credits)
 *   [Report Bugs](#report-bugs)
+    *   [Contact](#contact)
 
 ## Inputs
 
@@ -91,7 +92,6 @@ And many more using an array of [remarkjs plugins](https://github.com/remarkjs/r
 ## Credits
 
 This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) using [cookiecutter-action](https://github.com/tj-actions/cookiecutter-action)
-
 
 ## Report Bugs
 
