@@ -23,11 +23,16 @@ runs:
   using: 'composite'
   steps:
     - run: |
-        bash $GITHUB_ACTION_PATH/entrypoint.sh
+        npm install -g remark-cli@10.0.1
+        npm install -g $INPUT_PLUGINS
+
+        for path in $INPUT_FILES
+        do
+          npx remark "$path" --rc-path="${INPUT_RC_PATH}" ${INPUT_ARGS}
+        done
       id: remark
       shell: bash
       env:
-        GITHUB_ACTION_PATH: ${{ github.action_path }}
         # INPUT_<VARIABLE_NAME> is not available in Composite run steps
         # https://github.community/t/input-variable-name-is-not-available-in-composite-run-steps/127611
         INPUT_RC_PATH: ${{ inputs.rc_path }}
