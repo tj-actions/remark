@@ -29,12 +29,12 @@ Want a cool `Table of Contents` for your markdown and also auto sync changes eac
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|  INPUT  |  TYPE  | REQUIRED |    DEFAULT     |                                       DESCRIPTION                                        |
-|---------|--------|----------|----------------|------------------------------------------------------------------------------------------|
-|  args   | string |   true   |  `"--output"`  |           [remark cli](https://github.com/unifiedjs/unified-args#cli) options.           |
-|  files  | string |   true   | `"README.md"`  |                               List of input markdown files                               |
-| plugins | string |   true   | `"remark-toc"` | List of [remarkjs plugins](https://github.com/remarkjs/remark/blob/main/doc/plugins.md). |
-| rc\_path | string |  false   |                |                                Remark configuration file                                 |
+|                         INPUT                         |  TYPE  | REQUIRED |    DEFAULT     |                                       DESCRIPTION                                        |
+|-------------------------------------------------------|--------|----------|----------------|------------------------------------------------------------------------------------------|
+|     <a name="input_args"></a>[args](#input_args)      | string |   true   |  `"--output"`  |           [remark cli](https://github.com/unifiedjs/unified-args#cli) options.           |
+|    <a name="input_files"></a>[files](#input_files)    | string |   true   | `"README.md"`  |                               List of input markdown files                               |
+| <a name="input_plugins"></a>[plugins](#input_plugins) | string |   true   | `"remark-toc"` | List of [remarkjs plugins](https://github.com/remarkjs/remark/blob/main/doc/plugins.md). |
+| <a name="input_rc_path"></a>[rc\_path](#input_rc_path) | string |  false   |                |                                Remark configuration file                                 |
 
 <!-- AUTO-DOC-INPUT:END -->
 
