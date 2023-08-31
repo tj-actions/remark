@@ -22,7 +22,7 @@ runs:
   using: 'composite'
   steps:
     - run: |
-        npm install -g remark-cli@10.0.1
+        npm install -g remark-cli@11.0.0
         npm install -g $INPUT_PLUGINS
         
         RC_PATH=${INPUT_RC_PATH:-"${{ github.action_path }}/.remarkrc.json"}
