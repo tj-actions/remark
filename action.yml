@@ -29,7 +29,7 @@ runs:
 
         for path in $INPUT_FILES
         do
-          npx remark "$path" --rc-path="${RC_PATH}" ${INPUT_ARGS}
+          remark "$path" --rc-path="${RC_PATH}" ${INPUT_ARGS}
         done
       id: remark
       shell: bash
