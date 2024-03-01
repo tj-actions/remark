@@ -12,7 +12,7 @@ Want a cool `Table of Contents` for your markdown and also auto sync changes eac
 ```yaml
 ...
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Run remark cli
         uses: tj-actions/remark@v3
 ```
